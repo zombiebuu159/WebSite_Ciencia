@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+.title {
+    color: #ff8c00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.materials-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.materials {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.highlight {
+    background-color: #32cd32;
+    color: white;
+    font-weight: bold;
+}
+
+.image-container {
+    flex-shrink: 0;
+}
+
+.experiment-image {
+    width: 150px;
+    height: auto;
+}
+.formula {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.texto-explicativo {
+    background-color: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.titulo-seccion {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.reaccion-quimica {
+    font-style: italic;
+    margin: 15px 0;
+}
+
+.observacion {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-left: 4px solid #007bff;
+    margin: 15px 0;
+}

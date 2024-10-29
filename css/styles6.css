@@ -1,0 +1,82 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #000033 20%, #ffffff 20%);
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #000033;
+    color: white;
+    padding: 5px;
+    text-align: right;
+}
+
+.container {
+    margin-left: 22%;
+    padding: 20px;
+    max-width: 800px;
+}
+
+h1 {
+    color: #000033;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.welcome {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.welcome-name {
+    color: #663300;
+    font-weight: bold;
+}
+
+.instructions {
+    color: #000080;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.form-group label {
+    color: #000080;
+    width: 150px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+select {
+    width: 200px;
+    padding: 5px;
+}
+
+.submit-btn {
+    background: linear-gradient(to bottom, #ffffff, #e6e6e6);
+    border: 1px solid #999;
+    padding: 5px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 160px;
+}
+
+.submit-btn:hover {
+    background: linear-gradient(to bottom, #e6e6e6, #ffffff);
+}
+
+/* Pie de página */
+.orange-footer {
+    background-color: #FF9900;
+    height: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
